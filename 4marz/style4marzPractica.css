@@ -1,0 +1,41 @@
+.contenedor {
+    width: 80%;
+    max-width: 650px;
+    height: 350px;
+    box-shadow: 10px 10px 10px 0 black;
+    border-radius: 10px;
+    margin: 10px auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+}
+
+.caja {
+    width: 80%;
+    height: 80px;
+    background-color: #3498db;
+    align-content: center;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.inicio {
+    justify-content: space-around;
+
+}
+
+.centro1 {
+    justify-content: space-between;
+}
+
+.centro2 {
+    justify-content: space-evenly;
+}
+
+.fin {
+    align-items: center;
+}

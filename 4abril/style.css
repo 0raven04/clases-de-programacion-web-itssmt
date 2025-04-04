@@ -1,0 +1,85 @@
+.caja {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: cambiarColor 5s infinite;
+}
+
+@keyframes cambiarColor {
+    0% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+.cajam {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: mover 5s infinite ease;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(10px);
+    }
+
+    50% {
+        transform: translateX(300px);
+    }
+
+    100% {
+        transform: translateY(100px);
+    }
+}
+
+.cajaO {
+    width: 200px;
+    height: 200px;
+    font-size: 24px;
+    background-color: lightcoral;
+    opacity: 0;
+    animation: fadeln 8s ease-in infinite;
+}
+
+@keyframes fadeln {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.boton{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    animation: pulso 1s infinite;    
+}
+
+@keyframes pulso {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    
+}

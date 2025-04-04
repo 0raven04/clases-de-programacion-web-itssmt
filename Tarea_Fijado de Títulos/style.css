@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+section {
+    padding: 50px;
+    height: 400px; 
+    border-bottom: 2px solid #ddd;
+    background-color: white;
+}
+
+h1 {
+    position: sticky;
+    top: 0;
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    z-index: 100;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+}

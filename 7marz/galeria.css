@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: column;
+}
+
+.galeria .item {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: sticky;
+    top: 0px;
+}
+
+.galeria .item h3 {
+    background-color: rgba(50, 57, 237, 0.4);
+    color: #ffffff;
+    font-size: 15px;
+    position: absolute;
+    top: 100px;
+    font-size: 24px;
+    border-radius: 10px;
+    text-align: justify;
+    height: 160px;
+    width:  800px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}

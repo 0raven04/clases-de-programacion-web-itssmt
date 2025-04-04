@@ -1,0 +1,52 @@
+.contenedor {
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 10px 10px 10px 0px gray, -10px -10px 10px 0px gray;
+    border-radius: 10px;
+    margin: 10px auto;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+    grid-template-rows: 100px 400px 100px;
+    padding: 10px;
+    background-color: bisque;
+
+
+}
+
+.caja{
+    width: 80px;
+    height: 80px;
+    background-color: #3498db;
+    align-content: center;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.encabezado{
+    grid-column: 1/-1;
+    background-color: #3498db;
+}
+
+.barra{
+    grid-row: 2/4;
+    background-color: red;
+}
+
+
+
+.main{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: aqua;
+}
+
+.pie{
+    grid-column: 1/-1;
+    background-color: chartreuse;
+}

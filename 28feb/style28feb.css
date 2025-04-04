@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: var(--border-image);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+.contenedor1 {
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 10px 10px 0px 0 purple;
+}
+
+.contenedor2 {
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 10px 10px 0px 0 red;
+}
+
+.contenedor3 {
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 10px 10px 0px 0 blue;
+}
+
+.contenedor4 {
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 10px 10px 0px 0 black;
+}
+
+.contenedor1 div {
+
+    display: none;
+}
+
+.contenedor2 div {
+
+    display: block;
+}
+
+.contenedor3 div {
+
+    display: inline;
+}
+
+.contenedor4 div {
+
+    display: inline-block;
+}
+
+.caja {
+    background: var(--border-image2);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    border: 10px double black;
+    border-top: 10px solid red;
+    border-right: 10px dotted green;
+    border-bottom: 10px groove yellow;
+    border-left: 10px inset blue;
+    padding: 20px 10px 10px 5px;
+    margin: 10px auto;
+}
+
+
+
+
+:root {
+    --border-image: linear-gradient(to right,
+            rgb(154, 124, 245) 0%,
+            rgb(252, 238, 238) 100%);
+    --border-image2: linear-gradient(to right,
+            rgb(124, 245, 128) 0%,
+            rgb(252, 238, 238) 100%);
+    ;
+}

@@ -1,0 +1,76 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: var(--border-image);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    background-color: tomato;
+    border-radius: 50%;
+    box-shadow: 50px -20px 25px 0 black, 10px -30px 50px 0 blue, 50px 20px 75px 0 red;
+}
+
+.caja {
+    background: var(--border-image2);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    border: 10px double black;
+    border-top: 10px solid red;
+    border-right: 10px dotted green;
+    border-bottom: 10px groove yellow;
+    border-left: 10px inset blue;
+    padding: 20px 10px 10px 5px;
+    margin: auto;
+    display: block;
+}
+
+
+
+
+:root {
+    --border-image: linear-gradient(to right,
+            rgb(154, 124, 245) 0%,
+            rgb(252, 238, 238) 100%);
+    --border-image2: linear-gradient(to right,
+            rgb(124, 245, 128) 0%,
+            rgb(252, 238, 238) 100%);
+    ;
+}
+
+.rojo {
+    font-style: italic;
+    font-variant: initial;
+    font-weight: 1000;
+    font-size: x-large;
+    color: red;
+}
+
+#azul {
+    line-height: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+}
+
+.verde {
+    text-transform: uppercase;
+    text-indent: 100px;
+    text-shadow: -20px 0px 1px rgb(17, 255, 0);
+    letter-spacing: 10;
+    white-space: pre;
+    /*color: green;*/
+
+}

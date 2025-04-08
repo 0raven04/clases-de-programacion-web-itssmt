@@ -1,0 +1,248 @@
+body {
+	position: relative;
+}
+
+.lienzo {
+	width: 600px;
+	height: 600px;
+	border: 1px solid #000;
+	margin: 0 auto;
+	position: relative;
+    border-radius: 100px;
+	animation-delay: 1s;
+	background: #70c4c6;
+	animation-name: luz_dia;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	overflow: hidden;
+	animation-timing-function: linear;
+}
+
+.eclipse {
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	left:60%;
+	top:20%;
+	animation-name: tiempo;
+	animation-duration: 40s;
+	animation-iteration-count: infinite;
+	z-index: 0;
+	animation-timing-function: linear;
+}
+
+.sol {
+	width:70px;
+	height:70px;
+	border-radius: 50%;
+	background-color: #ffa;
+	position: absolute;
+	top: -35px;
+	left: -35px;
+}
+.sol.a {
+	bottom: -35px;
+	right: -35px;
+	left: auto;
+	top:auto;
+}
+.luna {
+	position: absolute;
+	top: -35px;
+	right: -35px;
+	width:70px;
+	height:70px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.luna.a {
+	bottom: -35px;
+	left: -35px;
+	top:auto;
+	right: auto;
+}
+
+.tierra {
+	width: 120%;
+	height: 320px;
+	position: absolute;
+	left:-50px;
+	bottom: -120px;
+	background-color: #83a81c;
+	border-radius: 50%;
+	z-index: 1;
+	animation-name: tierra_color;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+
+.arbol {
+	width:10px;
+	height:40px;
+	background-color: #766257;
+	left: 200px;
+	position: absolute;	
+}
+.arbol::before {
+	content: '';
+    position: absolute;
+    bottom: 125%;
+    left: -7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 20px 43px 20px;
+    border-color: transparent transparent #bfde3b transparent;
+    z-index: 1;
+	animation-name: viento;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+.arbol::after {
+	content: '';
+	position: absolute;
+	bottom:100%;
+	left:-25px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 30px 60px 30px;
+	border-color: transparent transparent #93ae29 transparent;	
+}
+
+.arbol.a {
+	transform: scale(1.5);
+	left:450px;
+	top: 100px;
+}
+.arbol.b {
+	transform: scale(1.25);
+	left: 530px;
+	top: 80px;
+	z-index: 0;
+}
+
+.estrella {
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: #fff;
+	position: absolute;
+	top: 50px;
+	left: 100px;
+	animation-name: desvanecer;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+.estrella::before {
+	content: '';
+	width:3px;
+	height:3px;
+	border-radius: 50%;
+	background-color: #fff;
+	position: absolute;
+	left:20px;
+	top:20px;
+	animation-name: parpadear;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+.estrella::after {
+	content: '';
+	width:2px;
+	height:2px;
+	border-radius: 50%;
+	background-color: #fff;
+	position: absolute;
+	left:-200px;
+	top:50px;
+	animation-name: parpadear;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;	
+}
+.estrella.a {
+	top:30px;
+	left:90%;
+}
+.estrella.b {
+	top:120px;
+	left:70%;
+}
+.estrella.c {
+	top:100px;
+	left:65%;
+}
+.estrella.d {
+	top:200px;
+	left:15%;
+}
+
+@keyframes tiempo {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+@keyframes luz_dia {
+	0% {  background-color: #70c4c6; }
+	15% {  background-color: #524b64; }
+	40% { background-color: #354a4a; }
+	70% { background-color: #354a4a; }
+	80% {  background-color: #e2b553; }
+	100% {  background-color: #70c4c6;}
+}
+@keyframes tierra_color {
+	40% { background-color: #4d6932; }
+	70% { background-color: #4d6932;}
+}
+@keyframes tierra_color_1 {
+	40% { background-color: #5b793e; }
+	70% { background-color: #5b793e;}
+}
+
+@keyframes girar {
+	0% { transform: rotate(0); }
+	100% { transform: rotate(360deg); }
+}
+@keyframes desvanecer {
+	0% { opacity: 0; }
+	15% { opacity: 0; }
+	40% { opacity: 1; }
+	60% { opacity: 0.4; }
+	70% { opacity: 1; }
+	80% {  opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes parpadear {
+	0% { opacity: 0; }
+	18% { opacity: 0; }
+	25% { opacity: 1; }
+	40% { opacity: 0; }
+	60% { opacity: 1; }
+	70% {  opacity: 0; }
+	100% { opacity: 0; }	
+}
+@keyframes parpadear_1 {
+	0% { opacity: 0; }
+	30% { opacity: 0; }
+	40% { opacity: 1; }
+	60% { opacity: 1; }
+	80% {  opacity: 0; }
+	100% { opacity: 0; }	
+}
+
+@keyframes nieve {
+	0% { top: 0; }
+	100% { top: 100%; }
+}
+
+.nieve {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+}
+.nieve.caer {
+	animation-name: nieve;
+	animation-duration: 5s;
+}

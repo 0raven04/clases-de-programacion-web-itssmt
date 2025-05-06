@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    max-width: 400px;
+    box-shadow: 10px 10px 10px 0 black;
+    gap: 10px;
+    padding: 10px;
+}
+
+#b2{
+    background-color: red;
+}
+
+#b3{
+    background-color: aqua;
+    color: black;
+}
+#b4{
+    background-color: blueviolet;
+    
+}
+#b5{
+    background-color: chocolate;
+}
+#b6{
+    background-color: darkgreen;
+}
+#b7{
+    background-color: gold;
+}

@@ -1,0 +1,92 @@
+main {
+    min-height: 100vh;
+}
+
+div {
+    padding: 10px;
+}
+
+.bi {
+    width: 1rem;
+    height: 1rem;
+}
+
+img {
+    max-width: 10%;
+    height: auto;
+}
+
+.Overview{
+    background-color: rgb(239, 229, 216);
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+.Form_controls{
+    background-color: rgb(239, 229, 216);
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+.Select{
+    background-color: rgb(239, 229, 216);
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+.Checks_and_radios{
+    background-color: rgb(239, 229, 216);
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+.Range{
+    background-color: rgb(239, 229, 216);
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+.Input_group{
+    background-color: rgb(239, 229, 216);
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+.Validation{
+    background-color: rgb(239, 229, 216);
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+.Input_group{
+        background-color: rgb(239, 229, 216);
+
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+.Input_group{
+        background-color: rgb(239, 229, 216);
+
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}

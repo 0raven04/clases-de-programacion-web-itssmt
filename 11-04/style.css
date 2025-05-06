@@ -1,7 +1,266 @@
+<<<<<<< HEAD
 main{
     min-height: 100vh;
 }
 
 div{
     padding: 15px;
+=======
+main {
+    min-height: 100vh;
+}
+
+div {
+    padding: 15px;
+}
+
+.bi {
+    width: 1rem;
+    height: 1rem;
+}
+
+img{
+    max-width: 10%;
+    height: auto;
+}
+
+
+
+.Acordeón {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Alertas {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Insignias {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Breadcrumb {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Botones {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Grupo_de_botones {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Cards {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Carousel {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Botón_Cerrar {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Collapse {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Dropdowns {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.List_group {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Modal {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Navbar {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Navs_and_tabs {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Paginación {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Placeholders {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Popovers {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Progress {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Scrollspy {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Spinners {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Toasts {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Tooltips {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+}
+
+.Offcanvas {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 20px;
+>>>>>>> 4bfd58f (nuevo)
 }

@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <main class="container">
+        <div class="row">
+            <!-- Overview  -->
+            <div class="Overview  row">
+                <h1>Overview</h1>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <h2>Disabled forms</h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <form>
+                            <fieldset disabled>
+                                <legend>Disabled fieldset example</legend>
+                                <div class="mb-3">
+                                    <label for="disabledTextInput" class="form-label">Disabled input</label>
+                                    <input type="text" id="disabledTextInput" class="form-control"
+                                        placeholder="Disabled input">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="disabledSelect" class="form-label">Disabled select menu</label>
+                                    <select id="disabledSelect" class="form-select">
+                                        <option>Disabled select</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck"
+                                            disabled>
+                                        <label class="form-check-label" for="disabledFieldsetCheck">
+                                            Can't check this
+                                        </label>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Form controls  -->
+            <div class="Form_controls  row">
+                <h1>Form controls</h1>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <h2>Sizing </h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div><input class="form-control form-control-lg" type="text" placeholder=".form-control-lg"
+                            aria-label=".form-control-lg example">
+                        <input class="form-control" type="text" placeholder="Default input"
+                            aria-label="default input example">
+                        <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm"
+                            aria-label=".form-control-sm example">
+                    </div>
+                </div>
+                <h2>Form text</h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <div class="row g-3 align-items-center">
+                            <div class="col-auto">
+                                <label for="inputPassword6" class="col-form-label">Password</label>
+                            </div>
+                            <div class="col-auto">
+                                <input type="password" id="inputPassword6" class="form-control"
+                                    aria-describedby="passwordHelpInline">
+                            </div>
+                            <div class="col-auto">
+                                <span id="passwordHelpInline" class="form-text">
+                                    Must be 8-20 characters long.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Disabled</h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div><input class="form-control" type="text" placeholder="Disabled input"
+                            aria-label="Disabled input example" disabled>
+                        <input class="form-control" type="text" value="Disabled readonly input"
+                            aria-label="Disabled input example" disabled readonly>
+                    </div>
+                </div>
+                <h2>Readonly</h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <input class="form-control" type="text" value="Readonly input here..."
+                            aria-label="readonly input example" readonly>
+                    </div>
+                </div>
+                <h2>Readonly plain text</h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <form class="row g-3">
+                            <div class="col-auto">
+                                <label for="staticEmail2" class="visually-hidden">Email</label>
+                                <input type="text" readonly class="form-control-plaintext" id="staticEmail2"
+                                    value="email@example.com">
+                            </div>
+                            <div class="col-auto">
+                                <label for="inputPassword2" class="visually-hidden">Password</label>
+                                <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <h2>File input</h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <div class="mb-3">
+                            <label for="formFile" class="form-label">Default file input example</label>
+                            <input class="form-control" type="file" id="formFile">
+                        </div>
+                        <div class="mb-3">
+                            <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+                            <input class="form-control" type="file" id="formFileMultiple" multiple>
+                        </div>
+                        <div class="mb-3">
+                            <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+                            <input class="form-control" type="file" id="formFileDisabled" disabled>
+                        </div>
+                        <div class="mb-3">
+                            <label for="formFileSm" class="form-label">Small file input example</label>
+                            <input class="form-control form-control-sm" id="formFileSm" type="file">
+                        </div>
+                        <div>
+                            <label for="formFileLg" class="form-label">Large file input example</label>
+                            <input class="form-control form-control-lg" id="formFileLg" type="file">
+                        </div>
+                    </div>
+                </div>
+                <h2>Color</h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <label for="exampleColorInput" class="form-label">Color picker</label>
+                        <input type="color" class="form-control form-control-color" id="exampleColorInput"
+                            value="#563d7c" title="Choose your color">
+                    </div>
+                </div>
+                <h2>Datalists</h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <label for="exampleDataList" class="form-label">Datalist example</label>
+                        <input class="form-control" list="datalistOptions" id="exampleDataList"
+                            placeholder="Type to search...">
+                        <datalist id="datalistOptions">
+                            <option value="San Francisco">
+                            <option value="New York">
+                            <option value="Seattle">
+                            <option value="Los Angeles">
+                            <option value="Chicago">
+                        </datalist>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Select  -->
+            <div class="Select  row">
+                <h1>Select</h1>
+                <h2>Default </h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+                <h2>Sizing</h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+
+                        <select class="form-select form-select-sm" aria-label="Small select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+                <h2>Disabled</h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <select class="form-select" aria-label="Disabled select example" disabled>
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Checks and radios  -->
+            <div class="Checks_and_radios  row">
+                <h1>Checks and radios</h1>
+                <h2>Checks</h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                            <label class="form-check-label" for="checkDefault">
+                                Default checkbox
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
+                            <label class="form-check-label" for="checkChecked">
+                                Checked checkbox
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <h2>Indeterminate</h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkIndeterminate">
+                            <label class="form-check-label" for="checkIndeterminate">
+                                Indeterminate checkbox
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <h2>Disabled</h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkIndeterminateDisabled"
+                                disabled>
+                            <label class="form-check-label" for="checkIndeterminateDisabled">
+                                Disabled indeterminate checkbox
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkDisabled" disabled>
+                            <label class="form-check-label" for="checkDisabled">
+                                Disabled checkbox
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkCheckedDisabled" checked
+                                disabled>
+                            <label class="form-check-label" for="checkCheckedDisabled">
+                                Disabled checked checkbox
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Radios</h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                            <label class="form-check-label" for="radioDefault1">
+                                Default radio
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+                            <label class="form-check-label" for="radioDefault2">
+                                Default checked radio
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <h2>Disabled</h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioDisabled" id="radioDisabled"
+                                disabled>
+                            <label class="form-check-label" for="radioDisabled">
+                                Disabled radio
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioDisabled" id="radioCheckedDisabled"
+                                checked disabled>
+                            <label class="form-check-label" for="radioCheckedDisabled">
+                                Disabled checked radio
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <h2>Switches</h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
+                            <label class="form-check-label" for="switchCheckDefault">Default switch checkbox
+                                input</label>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="switchCheckChecked"
+                                checked>
+                            <label class="form-check-label" for="switchCheckChecked">Checked switch checkbox
+                                input</label>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDisabled"
+                                disabled>
+                            <label class="form-check-label" for="switchCheckDisabled">Disabled switch checkbox
+                                input</label>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch"
+                                id="switchCheckCheckedDisabled" checked disabled>
+                            <label class="form-check-label" for="switchCheckCheckedDisabled">Disabled checked switch
+                                checkbox input</label>
+                        </div>
+                    </div>
+                </div>
+                <h2>Inline </h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">1</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">2</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3"
+                                disabled>
+                            <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
+                        </div>
+                    </div>
+                </div>
+                <h2>Toggle buttons</h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <div>
+                            <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
+                            <label class="btn btn-primary" for="btn-check">Single toggle</label>
+
+                            <input type="checkbox" class="btn-check" id="btn-check-2" checked autocomplete="off">
+                            <label class="btn btn-primary" for="btn-check-2">Checked</label>
+
+                            <input type="checkbox" class="btn-check" id="btn-check-3" autocomplete="off" disabled>
+                            <label class="btn btn-primary" for="btn-check-3">Disabled</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Range  -->
+            <div class="Range  row">
+                <h1>Range</h1>
+                <h2>Overview </h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div><label for="customRange1" class="form-label">Example range</label>
+                        <input type="range" class="form-range" id="customRange1">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input group  -->
+            <div class="Input_group  row">
+                <h1>Input group</h1>
+                <h2>Basic example</h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Recipient's username"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2">@example.com</span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="basic-url" class="form-label">Your vanity URL</label>
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                                <input type="text" class="form-control" id="basic-url"
+                                    aria-describedby="basic-addon3 basic-addon4">
+                            </div>
+                            <div class="form-text" id="basic-addon4">Example help text goes outside the input group.
+                            </div>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                            <span class="input-group-text">.00</span>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                            <span class="input-group-text">@</span>
+                            <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+                        </div>
+
+                        <div class="input-group">
+                            <span class="input-group-text">With textarea</span>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Validation  -->
+            <div class="Validation  row">
+                <h1>Validation</h1>
+                <h2>Custom styles </h2>
+                <div class="col-sm-6 col-md-4 col-lg-12">
+                    <div>
+                        <form class="row g-3 needs-validation" novalidate>
+                            <div class="col-md-4">
+                                <label for="validationCustom01" class="form-label">First name</label>
+                                <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="validationCustom02" class="form-label">Last name</label>
+                                <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="validationCustomUsername" class="form-label">Username</label>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                    <input type="text" class="form-control" id="validationCustomUsername"
+                                        aria-describedby="inputGroupPrepend" required>
+                                    <div class="invalid-feedback">
+                                        Please choose a username.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="validationCustom03" class="form-label">City</label>
+                                <input type="text" class="form-control" id="validationCustom03" required>
+                                <div class="invalid-feedback">
+                                    Please provide a valid city.
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="validationCustom04" class="form-label">State</label>
+                                <select class="form-select" id="validationCustom04" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option>...</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please select a valid state.
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="validationCustom05" class="form-label">Zip</label>
+                                <input type="text" class="form-control" id="validationCustom05" required>
+                                <div class="invalid-feedback">
+                                    Please provide a valid zip.
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                    <label class="form-check-label" for="invalidCheck">
+                                        Agree to terms and conditions
+                                    </label>
+                                    <div class="invalid-feedback">
+                                        You must agree before submitting.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary" type="submit">Submit form</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+</html>

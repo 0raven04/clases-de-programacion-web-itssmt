@@ -1,0 +1,13 @@
+body
+{
+    display: flex; /* Habilita el uso de Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Añadir altura para ver el centrado */
+}
+.card
+{
+    box-shadow: 5px 10px 3px #888888;
+    min-width: 300px;
+    min-height: 300px;
+}

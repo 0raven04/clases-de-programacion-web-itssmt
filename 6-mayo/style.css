@@ -13,24 +13,29 @@ body {
     padding: 10px;
 }
 
-#b2{
+#b2 {
     background-color: red;
 }
 
-#b3{
+#b3 {
     background-color: aqua;
     color: black;
 }
-#b4{
+
+#b4 {
     background-color: blueviolet;
-    
+
 }
-#b5{
+
+#b5 {
     background-color: chocolate;
 }
-#b6{
+
+#b6 {
     background-color: darkgreen;
 }
-#b7{
+
+#b7 {
     background-color: gold;
+    color: black;
 }
